@@ -12,7 +12,17 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val gradient = Brush.verticalGradient(
-    listOf(Color(0xFF2C5364), Color(0xFF203A43), Color(0xFF0F2027))
+    listOf(Color(0xFF090947), Color(0xFF5A585A), Color(0xFF203A43))
 )
 
 val offWhite = Color(0xFFDDDDDD)
+
+val PrimaryColor = Color(0xFF0F0A2C)
+val PrimaryLightColor = Color(0xFF82BD85)
+
+val TodoItemBackgroundColor = PrimaryLightColor
+val TodoItemIconColor = PrimaryColor
+val TodoItemTextColor = PrimaryColor
+
+val TodoInputBarBackgroundColor = PrimaryColor
+val TodoInputBarFabColor = PrimaryLightColor
